@@ -1,0 +1,107 @@
+.App-header img {
+    width:15%;
+    display:flex;
+    justify-content:space-between;
+   
+}
+
+h1,h3 {
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    color:skyblue;
+}
+
+p{
+    font-family: 'Dancing Script', cursive; 
+}
+
+
+.pagefilm{
+    background-color: rgba(32, 28, 28, 0.719);
+    padding-bottom:200px;
+}
+
+.affiche-clic img {
+    box-shadow: 15px 5px 30px rgb(2, 2, 87);
+}
+
+
+
+
+img {
+    width:25%;
+    cursor: pointer;
+}
+
+
+
+.visible {
+   opacity:1;
+}
+
+.corpus {
+    display:flex;
+    justify-content: space-between;
+    padding-left:15px;
+}
+
+.text-presentation {
+    color:white;
+    margin-left: 50px;
+    margin-right: 15px;
+    text-align:justify;
+}
+
+p {
+    font-size:20px;
+    padding-top:10px;
+    
+}
+
+.affiche-clic{
+    position:relative;
+}
+
+.affiche-clic img {
+    width:200px;
+}
+
+.icon-play span {
+    position:absolute;
+    left: 0;
+      right: 0;
+      top: 130px;
+      bottom: 0;
+      font-size:50px;
+}
+
+.icon-play {
+   
+    color:white;
+}
+
+.backHome{
+    display:flex;
+    justify-content: right;
+    padding-right: 15px;
+}
+
+.backHome img {
+    height:60px;
+    width:auto;
+    color:white;
+    padding-bottom:0;
+    
+}
+
+.iconText {
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.iconText p {
+    padding-top:20px;
+    padding-right: 15px;
+    color:skyblue;
+}
+

@@ -1,0 +1,55 @@
+.company {
+    background-color: rgba(32, 28, 28, 0.719);
+}
+
+span {
+    font-family: 'Dancing Script', cursive;
+}
+
+.poster{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+
+.poster img {
+    width:90%;
+    box-shadow: 15px 5px 20px rgb(2, 2, 87);
+}
+
+.logo_company {
+    display:flex;
+    justify-content: center;
+     
+}
+
+.catalogue {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    text-transform:uppercase;
+    color:white;
+    font-size:20px;
+    margin-left:20px;
+}
+
+.backHome{
+    display:flex;
+    justify-content: right;
+    padding-right: 15px;
+}
+
+.backHome img {
+    height:60px;
+    width:auto;
+    color:white;
+    padding-bottom:0;
+    
+}
+
+.iconText {
+    display: flex;
+    flex-direction:row-reverse;
+}

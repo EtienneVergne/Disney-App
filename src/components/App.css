@@ -1,0 +1,103 @@
+.App {
+    background-color: rgba(32, 28, 28, 0.719);
+    padding-bottom: 50px;
+}
+
+
+.App h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+} 
+
+.App img {
+    width:15%;
+   
+}
+
+.App-header {
+    display:flex;
+    justify-content:center;
+    padding-bottom: 10px;
+}
+
+
+.btn {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+}
+
+.btn img {
+    width:140px;
+}
+
+.btn button {
+    
+    background: linear-gradient(rgba(32, 28, 28, 0.719),white);
+    width:25%;
+    height:100px;
+    margin:10px 10px;
+}
+
+.affiches {
+    background-size: cover;
+}
+
+.encart-affiche {
+    
+    background-size: auto 25%;
+}
+
+
+.App .banniere {
+    
+    width:100%;
+    height:250px;
+    display:flex;
+    align-items:start;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    object-fit:cover;
+    
+    
+    
+}
+
+.newFilms {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+    
+}
+
+.newFilms img {
+ width:90%;
+ box-shadow: 15px 5px 30px rgb(2, 2, 87);
+}
+
+.suggestions {
+    display:flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.suggestions img {
+    width:32%;
+    box-shadow: 15px 5px 20px rgb(2, 2, 87);
+    
+}
+
+iframe{
+    opacity:0;
+}
+
+.video-visible {
+   opacity:1;
+}
+
